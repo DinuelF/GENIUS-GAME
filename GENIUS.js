@@ -4,7 +4,7 @@ import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 const GRID_SIZE = 3;
 const LEVELS = {
   easy: { speed: 1000, backgroundColor: 'green' },
-  medium: { speed: 750, backgroundColor: 'orange' },
+  medium: { speed: 750, backgroundColor: 'goldenrod' },
   hard: { speed: 562, backgroundColor: 'red' },
 };
 
