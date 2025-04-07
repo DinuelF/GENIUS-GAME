@@ -55,7 +55,7 @@ const GeniusGame = () => {
             setFlashing(null);
             resolve();
           }, LEVELS[level].speed / 2);
-        }, i * LEVELS[level].speed);
+        }, i * LEVELS[level].speed * 0.7);
       });
     }
     setIsPlayingSequence(false);
